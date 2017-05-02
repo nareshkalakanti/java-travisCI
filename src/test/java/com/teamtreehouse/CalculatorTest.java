@@ -43,7 +43,7 @@ public class CalculatorTest {
 
     @Test
     public void flotingPointDivisionWorks() throws Exception {
-        int result = calc.divide(7, 2);
+        float result = calc.divide(7.0f, 2.0f);
 
         assertEquals(3.5, result,0);
     }
