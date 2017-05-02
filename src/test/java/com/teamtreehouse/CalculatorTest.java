@@ -41,5 +41,12 @@ public class CalculatorTest {
         assertEquals(3, result);
     }
 
+    @Test
+    public void flotingPointDivisionWorks() throws Exception {
+        int result = calc.divide(7, 2);
+
+        assertEquals(3.5, result,0);
+    }
+
 
 }
