@@ -20,5 +20,9 @@ public class Calculator {
 
     public float divide(float a , float b){
         return a/b;
+
     }
+    /*
+    calculator code
+     */
 }
